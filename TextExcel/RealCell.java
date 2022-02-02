@@ -10,6 +10,7 @@ public class RealCell implements Cell
     // instance variables - replace the example below with your own
     public String realString;
     public double doubleValue;
+    public boolean isFormulaCell;
     /**
      * Constructor for objects of class RealCell
      */
@@ -20,6 +21,7 @@ public class RealCell implements Cell
         doubleValue = 0;
         else
         doubleValue = Double.parseDouble(realString);
+        isFormulaCell = false;
     }
     public RealCell(String a, Cell[][] sheet)
     {

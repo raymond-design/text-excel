@@ -10,7 +10,6 @@ public class TextCell implements Cell
     // instance variables - replace the example below with your own
     private int x;
     private String s;
-
     /**
      * Constructor for objects of class TextCell
      */
